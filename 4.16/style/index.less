@@ -1,0 +1,175 @@
+.wapr {
+    width: 1920px;
+    margin: 0 auto;
+}
+
+.container {
+    .header {
+        .nav {
+            height: 64px;
+            background: #873bf4;
+            margin-right: 12px;
+            .logo {
+                float: left;
+                color: #fff;
+                margin-left: 40px;
+                i {
+                    font-size: 50px;
+                }
+            }
+            .nav-right {
+                float: right;
+                li {
+                    float: left;
+                    margin: 0 14px;
+                    a {
+                        font-size: 16px;
+                        color: #fff;
+                        line-height: 64px;
+                        i {
+                            font-size: 26px;
+                            line-height: 64px;
+                        }
+                    }
+
+                }
+            }
+        }
+        .header-con {
+            height: 233px;
+            position: relative;
+            .header-con-bg {
+                width: 100%;
+                height: 233px;
+                background: #873bf4 url('../bgimg/header_bg.png') no-repeat center;
+                opacity: .5;
+                background-size: cover;
+            }
+            .header-con-text {
+                text-align: center;
+                color: #fff;
+                div {
+                    padding-top: 65px;
+                    font-size: 46px;
+                    font-weight: 600;
+                }
+                p {
+                    margin-top: 28px;
+                }
+            }
+        }
+    }
+
+    // product
+
+    .product {
+
+        .product-left {
+            float: left;
+            height: calc(542px - 80px);
+            width: calc(360px - 80px);
+            background: #6d5bf9;
+            padding: 40px;
+            color: #fff;
+            p {
+                font-size: 14px;
+                line-height: 22px;
+            }
+            h3 {
+                font-size: 28px;
+                line-height: 52px;
+            }
+            a {
+                display: block;
+                margin-top: 15px;
+                color: #fff;
+                &:hover {
+                    color: #fed361;
+                }
+            }
+        }
+        .product-right {
+            background: url('../bgimg/cont_bg.png') no-repeat center;
+            background-size: cover;
+            float: left;
+            width: calc(1920px - 360px - 80px);
+            height: calc(542px - 80px);
+            padding: 40px;
+
+            text-align: center;
+            .product-ant {
+                width: 100%;
+                height: 90px;
+                border: 1px solid #5b8ff9;
+                line-height: 90px;
+                color: #fff;
+                border-radius: 10px;
+                margin-bottom: 28px;
+                background: rgba(91, 143, 249, 0.4);
+                &:hover {
+                    background: hsla(0, 0%, 100%, 0.1);
+                }
+            }
+            .product-left-group {
+                margin-right: 14px;
+                width: 522px;
+                height: 336px;
+                float: left;
+                .G2plot {
+                    .product-ant;
+                    float: left;
+                    width: 252px;
+                    border-color: #5ad8a6;
+                }
+                .F2Native {
+                    .G2plot;
+                    float: right;
+                    border-color: #5ad8a6;
+                }
+                .G2 {
+                    .G2plot;
+                    border-color: #5ad8a6;
+                }
+                .F2 {
+                    .G2plot;
+                    float: right;
+                    border-color: #5ad8a6;
+                }
+                .data {
+                    .G2plot;
+                    border-color: #5ad8a6;
+                    width: 520px;
+                    margin-bottom: 0;
+                }
+            }
+            .product-left-con {
+                .product-left-group;
+            }
+            .product-left-right {
+
+                .left-group {
+                    float: left;
+                    div {
+                        .product-ant;
+                        float: none;
+                        width: 252px;
+                    }
+                }
+                .AVA {
+                    margin-bottom: 0;
+                    border: 1px solid #5b8ff9;
+                    width: 120px;
+                    height: 334px;
+                    float: right;
+                    line-height: 334px;
+                    text-align: center;
+                    background: rgba(91, 143, 249, 0.4);
+                    &:hover {
+                        background: hsla(0, 0%, 100%, 0.1);
+                    }
+                }
+            }
+        }
+    }
+
+}

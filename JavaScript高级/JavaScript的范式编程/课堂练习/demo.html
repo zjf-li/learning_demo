@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<script>
+    
+function gz(jb){
+    return function (jx){
+        return jb+jx
+    }
+}
+const gzV1 = gz(15000)
+const gzV2 = gz(12000)
+const gzV3 = gz(9000)
+
+
+console.log(gzV1(2000));
+console.log(gzV2(2000));
+console.log(gzV3(3000));
+
+
+
+function add(){
+    let number = 23;
+    return {
+        get(){
+            return number;
+        },
+        set(value){
+            number = value;
+        }
+    }
+}
+const add1 = add()
+
+add1.set(null)
+
+console.log(add1.get());
+
+
+</script>
+</html>

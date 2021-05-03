@@ -1,0 +1,313 @@
+.wapr {
+  width: 1920px;
+  margin: 0 auto;
+}
+.container .header .nav {
+  height: 64px;
+  background: #873bf4;
+  margin-right: 12px;
+}
+.container .header .nav .logo {
+  float: left;
+  color: #fff;
+  margin-left: 40px;
+}
+.container .header .nav .logo i {
+  font-size: 50px;
+}
+.container .header .nav .nav-right {
+  float: right;
+}
+.container .header .nav .nav-right li {
+  float: left;
+  margin: 0 14px;
+}
+.container .header .nav .nav-right li a {
+  font-size: 16px;
+  color: #fff;
+  line-height: 64px;
+}
+.container .header .nav .nav-right li a i {
+  font-size: 26px;
+  line-height: 64px;
+}
+.container .header .header-con {
+  height: 233px;
+  position: relative;
+}
+.container .header .header-con .header-con-bg {
+  width: 100%;
+  height: 233px;
+  background: #873bf4 url('../bgimg/header_bg.png') no-repeat center;
+  opacity: 0.5;
+  background-size: cover;
+}
+.container .header .header-con .header-con-text {
+  text-align: center;
+  color: #fff;
+}
+.container .header .header-con .header-con-text div {
+  padding-top: 65px;
+  font-size: 46px;
+  font-weight: 600;
+}
+.container .header .header-con .header-con-text p {
+  margin-top: 28px;
+}
+.container .product .product-left {
+  float: left;
+  height: calc(542px - 80px);
+  width: calc(360px - 80px);
+  background: #6d5bf9;
+  padding: 40px;
+  color: #fff;
+}
+.container .product .product-left p {
+  font-size: 14px;
+  line-height: 22px;
+}
+.container .product .product-left h3 {
+  font-size: 28px;
+  line-height: 52px;
+}
+.container .product .product-left a {
+  display: block;
+  margin-top: 15px;
+  color: #fff;
+}
+.container .product .product-left a:hover {
+  color: #fed361;
+}
+.container .product .product-right {
+  background: url('../bgimg/cont_bg.png') no-repeat center;
+  background-size: cover;
+  float: left;
+  width: calc(1920px - 360px - 80px);
+  height: calc(542px - 80px);
+  padding: 40px;
+  text-align: center;
+}
+.container .product .product-right .product-ant {
+  width: 100%;
+  height: 90px;
+  border: 1px solid #5b8ff9;
+  line-height: 90px;
+  color: #fff;
+  border-radius: 10px;
+  margin-bottom: 28px;
+  background: rgba(91, 143, 249, 0.4);
+}
+.container .product .product-right .product-ant:hover {
+  background: hsla(0, 0%, 100%, 0.1);
+}
+.container .product .product-right .product-left-group {
+  margin-right: 14px;
+  width: 522px;
+  height: 336px;
+  float: left;
+}
+.container .product .product-right .product-left-group .G2plot {
+  width: 100%;
+  height: 90px;
+  border: 1px solid #5b8ff9;
+  line-height: 90px;
+  color: #fff;
+  border-radius: 10px;
+  margin-bottom: 28px;
+  background: rgba(91, 143, 249, 0.4);
+  float: left;
+  width: 252px;
+  border-color: #5ad8a6;
+}
+.container .product .product-right .product-left-group .G2plot:hover {
+  background: hsla(0, 0%, 100%, 0.1);
+}
+.container .product .product-right .product-left-group .F2Native {
+  width: 100%;
+  height: 90px;
+  border: 1px solid #5b8ff9;
+  line-height: 90px;
+  color: #fff;
+  border-radius: 10px;
+  margin-bottom: 28px;
+  background: rgba(91, 143, 249, 0.4);
+  float: left;
+  width: 252px;
+  float: right;
+  border-color: #5ad8a6;
+}
+.container .product .product-right .product-left-group .F2Native:hover {
+  background: hsla(0, 0%, 100%, 0.1);
+}
+.container .product .product-right .product-left-group .G2 {
+  width: 100%;
+  height: 90px;
+  border: 1px solid #5b8ff9;
+  line-height: 90px;
+  color: #fff;
+  border-radius: 10px;
+  margin-bottom: 28px;
+  background: rgba(91, 143, 249, 0.4);
+  float: left;
+  width: 252px;
+  border-color: #5ad8a6;
+}
+.container .product .product-right .product-left-group .G2:hover {
+  background: hsla(0, 0%, 100%, 0.1);
+}
+.container .product .product-right .product-left-group .F2 {
+  width: 100%;
+  height: 90px;
+  border: 1px solid #5b8ff9;
+  line-height: 90px;
+  color: #fff;
+  border-radius: 10px;
+  margin-bottom: 28px;
+  background: rgba(91, 143, 249, 0.4);
+  float: left;
+  width: 252px;
+  float: right;
+  border-color: #5ad8a6;
+}
+.container .product .product-right .product-left-group .F2:hover {
+  background: hsla(0, 0%, 100%, 0.1);
+}
+.container .product .product-right .product-left-group .data {
+  width: 100%;
+  height: 90px;
+  border: 1px solid #5b8ff9;
+  line-height: 90px;
+  color: #fff;
+  border-radius: 10px;
+  margin-bottom: 28px;
+  background: rgba(91, 143, 249, 0.4);
+  float: left;
+  width: 252px;
+  border-color: #5ad8a6;
+  width: 520px;
+  margin-bottom: 0;
+}
+.container .product .product-right .product-left-group .data:hover {
+  background: hsla(0, 0%, 100%, 0.1);
+}
+.container .product .product-right .product-left-con {
+  margin-right: 14px;
+  width: 522px;
+  height: 336px;
+  float: left;
+}
+.container .product .product-right .product-left-con .G2plot {
+  width: 100%;
+  height: 90px;
+  border: 1px solid #5b8ff9;
+  line-height: 90px;
+  color: #fff;
+  border-radius: 10px;
+  margin-bottom: 28px;
+  background: rgba(91, 143, 249, 0.4);
+  float: left;
+  width: 252px;
+  border-color: #5ad8a6;
+}
+.container .product .product-right .product-left-con .G2plot:hover {
+  background: hsla(0, 0%, 100%, 0.1);
+}
+.container .product .product-right .product-left-con .F2Native {
+  width: 100%;
+  height: 90px;
+  border: 1px solid #5b8ff9;
+  line-height: 90px;
+  color: #fff;
+  border-radius: 10px;
+  margin-bottom: 28px;
+  background: rgba(91, 143, 249, 0.4);
+  float: left;
+  width: 252px;
+  float: right;
+  border-color: #5ad8a6;
+}
+.container .product .product-right .product-left-con .F2Native:hover {
+  background: hsla(0, 0%, 100%, 0.1);
+}
+.container .product .product-right .product-left-con .G2 {
+  width: 100%;
+  height: 90px;
+  border: 1px solid #5b8ff9;
+  line-height: 90px;
+  color: #fff;
+  border-radius: 10px;
+  margin-bottom: 28px;
+  background: rgba(91, 143, 249, 0.4);
+  float: left;
+  width: 252px;
+  border-color: #5ad8a6;
+}
+.container .product .product-right .product-left-con .G2:hover {
+  background: hsla(0, 0%, 100%, 0.1);
+}
+.container .product .product-right .product-left-con .F2 {
+  width: 100%;
+  height: 90px;
+  border: 1px solid #5b8ff9;
+  line-height: 90px;
+  color: #fff;
+  border-radius: 10px;
+  margin-bottom: 28px;
+  background: rgba(91, 143, 249, 0.4);
+  float: left;
+  width: 252px;
+  float: right;
+  border-color: #5ad8a6;
+}
+.container .product .product-right .product-left-con .F2:hover {
+  background: hsla(0, 0%, 100%, 0.1);
+}
+.container .product .product-right .product-left-con .data {
+  width: 100%;
+  height: 90px;
+  border: 1px solid #5b8ff9;
+  line-height: 90px;
+  color: #fff;
+  border-radius: 10px;
+  margin-bottom: 28px;
+  background: rgba(91, 143, 249, 0.4);
+  float: left;
+  width: 252px;
+  border-color: #5ad8a6;
+  width: 520px;
+  margin-bottom: 0;
+}
+.container .product .product-right .product-left-con .data:hover {
+  background: hsla(0, 0%, 100%, 0.1);
+}
+.container .product .product-right .product-left-right .left-group {
+  float: left;
+}
+.container .product .product-right .product-left-right .left-group div {
+  width: 100%;
+  height: 90px;
+  border: 1px solid #5b8ff9;
+  line-height: 90px;
+  color: #fff;
+  border-radius: 10px;
+  margin-bottom: 28px;
+  background: rgba(91, 143, 249, 0.4);
+  float: none;
+  width: 252px;
+}
+.container .product .product-right .product-left-right .left-group div:hover {
+  background: hsla(0, 0%, 100%, 0.1);
+}
+.container .product .product-right .product-left-right .AVA {
+  margin-bottom: 0;
+  border: 1px solid #5b8ff9;
+  width: 120px;
+  height: 334px;
+  float: right;
+  line-height: 334px;
+  text-align: center;
+  background: rgba(91, 143, 249, 0.4);
+}
+.container .product .product-right .product-left-right .AVA:hover {
+  background: hsla(0, 0%, 100%, 0.1);
+}

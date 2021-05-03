@@ -1,0 +1,22 @@
+/*  样式初始化 */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul,li {
+    list-style: none;
+}
+a,i{
+    text-decoration: none;
+    font-style: normal;
+}
+
+.positionCenter{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+}
