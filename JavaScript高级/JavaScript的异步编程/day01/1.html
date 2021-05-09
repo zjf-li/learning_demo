@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Document</title>
+
 </head>
 
 <body>
@@ -29,10 +31,28 @@
         })
     }
 
-    ajax('https://huawei-8gpj6slmd7c31407-1259036613.ap-shanghai.app.tcloudbase.com/').then(res=>{
+    ajax('https://huawei-8gpj6slmd7c31407-1259036613.ap-shanghai.app.tcloudbase.com/')
+    .then(res=>{
         console.log(res);
     })
 
     console.log('add');
+
+    // 谁离业务最近，谁就赚的多
+
+const url = 'https://huawei-8gpj6slmd7c31407-1259036613.ap-shanghai.app.tcloudbase.com/'
+
+     let xhr = new XMLHttpRequest();
+
+     xhr.open('GET',url)
+
+     xhr.responseType = 'json';
+
+     xhr.onload = function(){
+         if(this.status === 200){
+             console.log(this.response);
+         }
+     }
+     xhr.send()
 
 </script>

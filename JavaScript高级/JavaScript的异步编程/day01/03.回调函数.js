@@ -1,9 +1,21 @@
 
 function foo(callbakc){
     console.log('你去买菜');
-    setTimeout(()=>{
-        callbakc()
-    },3000)
+
+
+    a('洗菜',()=>{
+     a ('切菜',()=>{
+        a ('切菜',()=>{})
+   
+             
+         })
+
+    })
+
+}
+function a(str,fn){
+    console.log(str);
+    fn()
 }
 
 foo(function(){
